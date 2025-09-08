@@ -4,6 +4,7 @@ Este repositório contém as soluções das tarefas sugeridas no curso [Data Ana
 
 1. **Mean-Variance-Standard Deviation Calculator**  
 2. **Demographic Data Analyzer**
+3. **Medical Data Visualizer**
 
 ---
 
@@ -20,6 +21,14 @@ O programa lê o dataset `adult.data.csv` e responde a perguntas como:
 - Percentual de pessoas com ensino superior que ganham mais de 50K.  
 - País com maior percentual de pessoas que ganham mais de 50K.  
 - Ocupação mais comum de pessoas ricas na Índia.  
+
+### 3. Medical Data Visualizer
+Um visualizador de dados médicos que utiliza **pandas**, **numpy**, **matplotlib** e **seaborn**.  
+O programa trabalha com o dataset `medical_examination.csv` e realiza:  
+- Cálculo de índice de massa corporal (IMC) para determinar sobrepeso.  
+- Normalização das colunas de colesterol e glicose.  
+- **Gráfico categórico (catplot)**: mostra a distribuição de variáveis médicas (como colesterol, glicose, fumo, álcool, atividade física e sobrepeso) divididas por condição cardíaca.  
+- **Mapa de calor (heatmap)**: exibe a matriz de correlação entre variáveis, após filtragem de dados inconsistentes.  
 
 ---
 
