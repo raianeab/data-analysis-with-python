@@ -1,35 +1,50 @@
 # Projetos 1 e 2 – FreeCodeCamp: Data Analysis with Python
 
-Este repositório contém as soluções das tarefas sugeridas no curso [Data Analysis with Python (FreeCodeCamp)](https://www.freecodecamp.org/learn/data-analysis-with-python/):  
+Este repositório contém as soluções das tarefas sugeridas no curso [Data Analysis with Python (FreeCodeCamp)](https://www.freecodecamp.org/learn/data-analysis-with-python/):
 
-1. **Mean-Variance-Standard Deviation Calculator**  
+
+1. **Mean-Variance-Standard Deviation Calculator**
 2. **Demographic Data Analyzer**
 3. **Medical Data Visualizer**
+4. **Page View Time Series Visualizer**
+
 
 ---
 
+
 ## Sobre os Projetos
+
 
 ### 1. Mean-Variance-Standard Deviation Calculator
 Um script em Python que recebe uma lista de 9 números e retorna cálculos estatísticos (média, variância, desvio padrão, máximo, mínimo e soma) tanto para linhas, colunas quanto para toda a matriz.
 
+
 ### 2. Demographic Data Analyzer
-Um analisador de dados demográficos utilizando **pandas**.  
-O programa lê o dataset `adult.data.csv` e responde a perguntas como:  
-- Média de idade dos homens.  
-- Percentual de pessoas com diploma de *Bachelors*.  
-- Percentual de pessoas com ensino superior que ganham mais de 50K.  
-- País com maior percentual de pessoas que ganham mais de 50K.  
-- Ocupação mais comum de pessoas ricas na Índia.  
+Um analisador de dados demográficos utilizando **pandas**.
+O programa lê o dataset `adult.data.csv` e responde a perguntas como:
+- Média de idade dos homens.
+- Percentual de pessoas com diploma de *Bachelors*.
+- Percentual de pessoas com ensino superior que ganham mais de 50K.
+- País com maior percentual de pessoas que ganham mais de 50K.
+- Ocupação mais comum de pessoas ricas na Índia.
+
 
 ### 3. Medical Data Visualizer
-Um visualizador de dados médicos que utiliza **pandas**, **numpy**, **matplotlib** e **seaborn**.  
-O programa trabalha com o dataset `medical_examination.csv` e realiza:  
-- Cálculo de índice de massa corporal (IMC) para determinar sobrepeso.  
-- Normalização das colunas de colesterol e glicose.  
-- **Gráfico categórico (catplot)**: mostra a distribuição de variáveis médicas (como colesterol, glicose, fumo, álcool, atividade física e sobrepeso) divididas por condição cardíaca.  
-- **Mapa de calor (heatmap)**: exibe a matriz de correlação entre variáveis, após filtragem de dados inconsistentes.  
+Um visualizador de dados médicos que utiliza **pandas**, **numpy**, **matplotlib** e **seaborn**.
+O programa trabalha com o dataset `medical_examination.csv` e realiza:
+- Cálculo de índice de massa corporal (IMC) para determinar sobrepeso.
+- Normalização das colunas de colesterol e glicose.
+- **Gráfico categórico (catplot)**: mostra a distribuição de variáveis médicas (como colesterol, glicose, fumo, álcool, atividade física e sobrepeso) divididas por condição cardíaca.
+- **Mapa de calor (heatmap)**: exibe a matriz de correlação entre variáveis, após filtragem de dados inconsistentes.
 
+
+### 4. Page View Time Series Visualizer
+Um visualizador de séries temporais que utiliza **pandas**, **matplotlib** e **seaborn**.
+O programa trabalha com o dataset `fcc-forum-pageviews.csv` e realiza:
+- Limpeza dos dados, removendo os 2,5% superiores e inferiores.
+- **Gráfico de linha**: mostra o número diário de visualizações no fórum entre 2016 e 2019.
+- **Gráfico de barras**: exibe a média mensal de visualizações agrupada por ano.
+- **Boxplots**: permitem observar tendências por ano e sazonalidade por mês.
 ---
 
 ## ⚙️ Instalação
